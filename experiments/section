@@ -1,0 +1,5 @@
+
+var numNumb = 25;
+var nameVar = "sid";
+function firstFunction();
+  console.log("this is my first name")

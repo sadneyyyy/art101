@@ -1,0 +1,41 @@
+var numNumb = 25;
+var nameVar = "sid";
+function firstFunction();
+  console.log("this is my first name");
+  console.log(numNumb);
+  console.log(nameVar);
+}
+firstFunction();
+function testBigger (firstNum, secondNum){
+  console.log("first number: "+firstNum+" second Number:"+secondNum+" comparison: " +(firstNum")
+}
+function testBiggerWithReturn (firstNum, secondNum){
+  var results;
+  result = firstNum>secondNum;
+  console.log(result);
+  return result;
+
+
+}
+var sum = (testBiggerWithReturn(8,5));
+console.log(sum);
+//First name: toni Last Name: Rouhana
+sum = sum * 8;
+console.log(sum);
+
+function firstNameLastName (firstName, lastName) {
+ var result = firstName +" "+ lastName;
+ return result;
+}
+
+console.log(firstNameLastName("Sidney, Flores"))
+
+var myVarFunction = function (){
+  console.log("functions are nice");
+}
+
+setTimeout(myVarfun,2000);
+
+setTimeout(function(){
+    console.log("Look mah! No name!");
+},2000);
